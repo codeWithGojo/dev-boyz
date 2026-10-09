@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "title": "Student Information Management System",
+    "category": "School and university systems"
+  },
+  {
+    "id": 2,
+    "title": "Online Course Registration System",
+    "category": "School and university systems"
+  },
+  {
+    "id": 3,
+    "title": "Student Result Processing and CGPA Calculator",
+    "category": "School and university systems"
+  },
+  {
+    "id": 4,
+    "title": "Computer-Based Testing and Examination System",
+    "category": "School and university systems"
+  },
+  {
+    "id": 5,
+    "title": "QR Code Student Attendance System",
+    "category": "School and university systems"
+  },
+  {
+    "id": 6,
+    "title": "Hostel Allocation and Management System",
+    "category": "School and university systems"
+  },
+  {
+    "id": 7,
+    "title": "Library Management System",
+    "category": "School and university systems"
+  },
+  {
+    "id": 8,
+    "title": "School Fees Payment and Receipt System",
+    "category": "School and university systems"
+  },
+  {
+    "id": 9,
+    "title": "Final-Year Project Submission and Supervision Portal",
+    "category": "School and university systems"
+  },
+  {
+    "id": 10,
+    "title": "Student Clearance System",
+    "category": "School and university systems"
+  },
+  {
+    "id": 11,
+    "title": "Learning Management System",
+    "category": "Learning and campus services"
+  },
+  {
+    "id": 12,
+    "title": "Online Assignment Submission and Grading System",
+    "category": "Learning and campus services"
+  },
+  {
+    "id": 13,
+    "title": "Lecture Timetable Scheduling System",
+    "category": "Learning and campus services"
+  },
+  {
+    "id": 14,
+    "title": "University Admission Application Portal",
+    "category": "Learning and campus services"
+  },
+  {
+    "id": 15,
+    "title": "Scholarship Application and Screening System",
+    "category": "Learning and campus services"
+  },
+  {
+    "id": 16,
+    "title": "SIWES Placement and Logbook System",
+    "category": "Learning and campus services"
+  },
+  {
+    "id": 17,
+    "title": "Alumni Networking Platform",
+    "category": "Learning and campus services"
+  },
+  {
+    "id": 18,
+    "title": "Campus Lost-and-Found System",
+    "category": "Learning and campus services"
+  },
+  {
+    "id": 19,
+    "title": "Student Complaint and Resolution Portal",
+    "category": "Learning and campus services"
+  },
+  {
+    "id": 20,
+    "title": "Campus Event Registration and Ticketing System",
+    "category": "Learning and campus services"
+  },
+  {
+    "id": 21,
+    "title": "Inventory and Stock Management System",
+    "category": "Business and administration"
+  },
+  {
+    "id": 22,
+    "title": "Point-of-Sale and Sales Reporting System",
+    "category": "Business and administration"
+  },
+  {
+    "id": 23,
+    "title": "Employee Payroll Management System",
+    "category": "Business and administration"
+  },
+  {
+    "id": 24,
+    "title": "Human Resources and Leave Management System",
+    "category": "Business and administration"
+  },
+  {
+    "id": 25,
+    "title": "Customer Relationship Management System",
+    "category": "Business and administration"
+  },
+  {
+    "id": 26,
+    "title": "Invoice and Expense Management System",
+    "category": "Business and administration"
+  },
+  {
+    "id": 27,
+    "title": "Procurement and Purchase Order System",
+    "category": "Business and administration"
+  },
+  {
+    "id": 28,
+    "title": "Small-Business ERP System",
+    "category": "Business and administration"
+  },
+  {
+    "id": 29,
+    "title": "Document Approval and Workflow System",
+    "category": "Business and administration"
+  },
+  {
+    "id": 30,
+    "title": "Equipment and Asset Management System",
+    "category": "Business and administration"
+  },
+  {
+    "id": 31,
+    "title": "E-Commerce Store with Admin Dashboard",
+    "category": "Commerce and booking"
+  },
+  {
+    "id": 32,
+    "title": "Multi-Vendor Marketplace",
+    "category": "Commerce and booking"
+  },
+  {
+    "id": 33,
+    "title": "Online Food Ordering and Delivery System",
+    "category": "Commerce and booking"
+  },
+  {
+    "id": 34,
+    "title": "Hotel Reservation and Management System",
+    "category": "Commerce and booking"
+  },
+  {
+    "id": 35,
+    "title": "Bus Ticket Booking System",
+    "category": "Commerce and booking"
+  },
+  {
+    "id": 36,
+    "title": "Cinema Booking and Seat Selection System",
+    "category": "Commerce and booking"
+  },
+  {
+    "id": 37,
+    "title": "Property Rental and Tenant Management System",
+    "category": "Commerce and booking"
+  },
+  {
+    "id": 38,
+    "title": "Laundry Booking and Tracking System",
+    "category": "Commerce and booking"
+  },
+  {
+    "id": 39,
+    "title": "Artisan and Home-Service Booking Platform",
+    "category": "Commerce and booking"
+  },
+  {
+    "id": 40,
+    "title": "Car Rental Management System",
+    "category": "Commerce and booking"
+  },
+  {
+    "id": 41,
+    "title": "Hospital Management System",
+    "category": "Healthcare and community services"
+  },
+  {
+    "id": 42,
+    "title": "Electronic Patient Records System",
+    "category": "Healthcare and community services"
+  },
+  {
+    "id": 43,
+    "title": "Medical Appointment and Queue Management System",
+    "category": "Healthcare and community services"
+  },
+  {
+    "id": 44,
+    "title": "Pharmacy Inventory and Prescription System",
+    "category": "Healthcare and community services"
+  },
+  {
+    "id": 45,
+    "title": "Blood Donor Matching and Blood Bank System",
+    "category": "Healthcare and community services"
+  },
+  {
+    "id": 46,
+    "title": "Laboratory Test Booking and Results Portal",
+    "category": "Healthcare and community services"
+  },
+  {
+    "id": 47,
+    "title": "Telemedicine Consultation Platform",
+    "category": "Healthcare and community services"
+  },
+  {
+    "id": 48,
+    "title": "Vaccination Scheduling and Reminder System",
+    "category": "Healthcare and community services"
+  },
+  {
+    "id": 49,
+    "title": "Waste Collection Scheduling and Reporting System",
+    "category": "Healthcare and community services"
+  },
+  {
+    "id": 50,
+    "title": "Emergency Incident Reporting and Dispatch Dashboard",
+    "category": "Healthcare and community services"
+  },
+  {
+    "id": 51,
+    "title": "Personal Budget and Expense Tracker",
+    "category": "Finance and agriculture"
+  },
+  {
+    "id": 52,
+    "title": "Cooperative Savings and Loan Management System",
+    "category": "Finance and agriculture"
+  },
+  {
+    "id": 53,
+    "title": "Loan Application and Repayment Tracking System",
+    "category": "Finance and agriculture"
+  },
+  {
+    "id": 54,
+    "title": "School Bursary and Accounting System",
+    "category": "Finance and agriculture"
+  },
+  {
+    "id": 55,
+    "title": "Donation and Fundraising Platform",
+    "category": "Finance and agriculture"
+  },
+  {
+    "id": 56,
+    "title": "Subscription Billing and Membership System",
+    "category": "Finance and agriculture"
+  },
+  {
+    "id": 57,
+    "title": "Farm Produce Marketplace",
+    "category": "Finance and agriculture"
+  },
+  {
+    "id": 58,
+    "title": "Farm Inventory and Operations Management System",
+    "category": "Finance and agriculture"
+  },
+  {
+    "id": 59,
+    "title": "Agricultural Extension Advice Portal",
+    "category": "Finance and agriculture"
+  },
+  {
+    "id": 60,
+    "title": "Crop Yield Prediction Dashboard",
+    "category": "Finance and agriculture"
+  },
+  {
+    "id": 61,
+    "title": "University Enquiry Chatbot",
+    "category": "AI and machine learning"
+  },
+  {
+    "id": 62,
+    "title": "Student Academic Performance Prediction System",
+    "category": "AI and machine learning"
+  },
+  {
+    "id": 63,
+    "title": "Product Recommendation System",
+    "category": "AI and machine learning"
+  },
+  {
+    "id": 64,
+    "title": "Movie Recommendation System",
+    "category": "AI and machine learning"
+  },
+  {
+    "id": 65,
+    "title": "Customer Review Sentiment Analysis System",
+    "category": "AI and machine learning"
+  },
+  {
+    "id": 66,
+    "title": "Fake News Classification System",
+    "category": "AI and machine learning"
+  },
+  {
+    "id": 67,
+    "title": "Email Spam Detection System",
+    "category": "AI and machine learning"
+  },
+  {
+    "id": 68,
+    "title": "Crop Disease Detection from Leaf Images",
+    "category": "AI and machine learning"
+  },
+  {
+    "id": 69,
+    "title": "CV-to-Job Matching System",
+    "category": "AI and machine learning"
+  },
+  {
+    "id": 70,
+    "title": "Document Summarisation and Question-Answering System",
+    "category": "AI and machine learning"
+  },
+  {
+    "id": 71,
+    "title": "Phishing URL Detection System",
+    "category": "Cybersecurity and digital trust"
+  },
+  {
+    "id": 72,
+    "title": "Network Intrusion Detection Dashboard",
+    "category": "Cybersecurity and digital trust"
+  },
+  {
+    "id": 73,
+    "title": "Secure File-Sharing System",
+    "category": "Cybersecurity and digital trust"
+  },
+  {
+    "id": 74,
+    "title": "Role-Based Access Control and Audit System",
+    "category": "Cybersecurity and digital trust"
+  },
+  {
+    "id": 75,
+    "title": "Two-Factor Authentication Demonstration Platform",
+    "category": "Cybersecurity and digital trust"
+  },
+  {
+    "id": 76,
+    "title": "Password Strength Assessment Tool",
+    "category": "Cybersecurity and digital trust"
+  },
+  {
+    "id": 77,
+    "title": "Web Application Security Scanner for Authorised Test Sites",
+    "category": "Cybersecurity and digital trust"
+  },
+  {
+    "id": 78,
+    "title": "Suspicious Login Detection System",
+    "category": "Cybersecurity and digital trust"
+  },
+  {
+    "id": 79,
+    "title": "Digital Certificate Verification System",
+    "category": "Cybersecurity and digital trust"
+  },
+  {
+    "id": 80,
+    "title": "Encrypted Messaging Application",
+    "category": "Cybersecurity and digital trust"
+  },
+  {
+    "id": 81,
+    "title": "Campus Navigation Application",
+    "category": "Mobile, location and accessibility"
+  },
+  {
+    "id": 82,
+    "title": "Public Transport Route Planner",
+    "category": "Mobile, location and accessibility"
+  },
+  {
+    "id": 83,
+    "title": "Delivery Tracking Application",
+    "category": "Mobile, location and accessibility"
+  },
+  {
+    "id": 84,
+    "title": "Location-Based Service Finder",
+    "category": "Mobile, location and accessibility"
+  },
+  {
+    "id": 85,
+    "title": "Road Hazard and Pothole Reporting Application",
+    "category": "Mobile, location and accessibility"
+  },
+  {
+    "id": 86,
+    "title": "Disaster Alert and Shelter Locator",
+    "category": "Mobile, location and accessibility"
+  },
+  {
+    "id": 87,
+    "title": "Sign Language Recognition Prototype",
+    "category": "Mobile, location and accessibility"
+  },
+  {
+    "id": 88,
+    "title": "Text-to-Speech Reading Assistant",
+    "category": "Mobile, location and accessibility"
+  },
+  {
+    "id": 89,
+    "title": "Accessible Learning Application",
+    "category": "Mobile, location and accessibility"
+  },
+  {
+    "id": 90,
+    "title": "Offline-First Field Data Collection Application",
+    "category": "Mobile, location and accessibility"
+  },
+  {
+    "id": 91,
+    "title": "Smart Fire and Gas Detection System",
+    "category": "IoT and smart systems"
+  },
+  {
+    "id": 92,
+    "title": "Smart Home Monitoring and Appliance Control",
+    "category": "IoT and smart systems"
+  },
+  {
+    "id": 93,
+    "title": "Smart Irrigation System",
+    "category": "IoT and smart systems"
+  },
+  {
+    "id": 94,
+    "title": "Smart Electricity Usage Monitoring System",
+    "category": "IoT and smart systems"
+  },
+  {
+    "id": 95,
+    "title": "Smart Water Tank Level Monitoring System",
+    "category": "IoT and smart systems"
+  },
+  {
+    "id": 96,
+    "title": "Smart Waste Bin Monitoring System",
+    "category": "IoT and smart systems"
+  },
+  {
+    "id": 97,
+    "title": "RFID Attendance and Access Control System",
+    "category": "IoT and smart systems"
+  },
+  {
+    "id": 98,
+    "title": "Smart Parking Availability System",
+    "category": "IoT and smart systems"
+  },
+  {
+    "id": 99,
+    "title": "Cold-Storage Temperature Monitoring System",
+    "category": "IoT and smart systems"
+  },
+  {
+    "id": 100,
+    "title": "Environmental Air Quality Monitoring System",
+    "category": "IoT and smart systems"
+  }
+]
