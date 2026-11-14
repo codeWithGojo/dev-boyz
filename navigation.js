@@ -1,7 +1,7 @@
 'use strict';
 const menuToggle = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('#navlinks');
-const mobileLayout = window.matchMedia('(max-width: 760px)');
+const mobileLayout = window.matchMedia(document.body.classList.contains('catalogue-page') ? '(max-width: 760px)' : '(max-width: 860px)');
 function closeNavigation(restoreFocus = false) {
   const wasOpen = menuToggle.getAttribute('aria-expanded') === 'true';
   menuToggle.setAttribute('aria-expanded', 'false');
