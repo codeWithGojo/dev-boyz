@@ -24,6 +24,8 @@ body>header.wrap{max-width:none;background:var(--navy);padding:0 max(56px,calc((
 .catalogue-tools :is(input, select), .contact-layout :is(input, select, textarea) { font-size: 16px; }
 .catalogue-page .faq summary { min-height: 44px; align-items: center; }
 .scope-strip .wrap { font-size: .75rem; }
+.package-overview li span, .card-category { font-size: .8125rem; }
+.card-content > p, .contact-layout form small { font-size: .875rem; }
 @media (max-width: 760px) {
   .catalogue-page .hero { gap: 24px; }
   .catalogue-page .package-overview { padding-top: 18px; }
