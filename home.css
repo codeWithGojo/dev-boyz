@@ -22,9 +22,7 @@ button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible,s
 .secondary:hover{background:#1a3423}
 .small{min-height:42px}
 .menu-toggle{display:none}
-.hero{position:relative;isolation:isolate;text-align:center;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(ellipse at 50% 78%,#183c26 0%,#0c1810 51%,#0a100c 82%)}
-.hero:before,.contact:before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(#75c28a12 1px,transparent 1px),linear-gradient(90deg,#75c28a12 1px,transparent 1px);background-size:52px 52px;mask-image:linear-gradient(transparent,#000 35%,#000 77%,transparent)}
-.hero-inner{padding:76px 0 70px}
+.hero{border-bottom:1px solid var(--line);background:#0d170f}
 .eyebrow{font:500 12px var(--mono);letter-spacing:.13em;text-transform:uppercase;color:var(--green)}
 h1,h2,h3,p{margin:0}
 h1{font-size:clamp(2.5rem,6.5vw,6rem);letter-spacing:-.04em;line-height:1.04;margin:0 0 20px;font-weight:800;text-wrap:balance}
@@ -47,11 +45,6 @@ h3{font-size:21px;line-height:1.18;letter-spacing:-.03em}
 .about{border-block:1px solid var(--line);background:#0e1811}
 .split{display:grid;grid-template-columns:1.04fr 1fr;gap:55px;align-items:center}
 .checks{list-style:none;padding:0;margin:20px 0 0}
-.code{min-width:0;border:1px solid #304c38;border-radius:15px;background:#090f0b;overflow:hidden}
-.code header{padding:13px 16px;border-bottom:1px solid var(--line);color:var(--muted);font:12px var(--mono);display:flex;align-items:center;gap:13px}
-.lights{color:var(--green);letter-spacing:3px}
-.code pre{margin:0;padding:22px;font:clamp(11px,1.4vw,15px)/1.9 var(--mono);color:#b1eec0;white-space:pre-wrap}
-.code em{font-style:normal;color:#74a48a}
 .project{border:1px solid var(--line);border-radius:15px;background:var(--panel);overflow:hidden}
 .project-body{padding:21px}
 .project .eyebrow{font-size:10px;display:block;margin-bottom:8px}
@@ -81,13 +74,11 @@ textarea{min-height:97px;resize:vertical}
 .nav-links{display:none;position:absolute;top:100%;left:0;right:0;background:#101a13;border-bottom:1px solid var(--line);padding:12px 18px;flex-direction:column;align-items:stretch;gap:0}
 .nav-links.open{display:flex}
 .nav-links a{display:flex;align-items:center;min-height:44px;padding:10px 4px}
-.hero-inner{padding:52px 0 46px}
 .hero .actions{display:grid;max-width:320px;margin:24px auto 0}
 .section{padding:58px 0}
 .cards{grid-template-columns:1fr}
 .split{grid-template-columns:1fr;gap:28px}
 .footer .wrap{flex-wrap:wrap}
-.hero h1 br{display:none}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}
 }
@@ -112,3 +103,47 @@ textarea{min-height:97px;resize:vertical}
 .form small { display: block; margin-top: 8px; color: var(--muted); }
 
 #form-status { font-size: 13px; margin-top: 8px; }
+
+.hero-inner {
+  display: grid;
+  grid-template-columns: minmax(0, .94fr) minmax(0, 1fr);
+  gap: clamp(28px, 5vw, 72px);
+  align-items: center;
+  padding-block: clamp(48px, 7vw, 100px);
+}
+.hero h1 { font-size: clamp(2.5rem, 4.15vw, 4rem); text-wrap: initial; }
+.hero .lede { margin-inline: 0; max-width: 42ch; }
+.hero .actions { display: flex; justify-content: flex-start; margin: 24px 0 0; max-width: none; }
+.hero-project {
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--panel);
+}
+.hero-project a { display: block; }
+.hero-project a:focus-visible { outline-offset: -4px; }
+.hero-project img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: top;
+}
+.hero-project .hero-project-caption { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 5px 16px; padding: 13px 16px; }
+.hero-project .hero-project-caption > span { color: var(--green); font-size: .875rem; }
+.hero-project a:is(:hover, :focus-visible) .hero-project-caption > span { text-decoration: underline; text-underline-offset: 3px; }
+@media (prefers-reduced-motion: no-preference) {
+  .hero-project { animation: project-arrive 650ms cubic-bezier(.22,1,.36,1) both; }
+  @keyframes project-arrive { from { opacity: .65; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+}
+@media (max-width: 860px) {
+  .hero-inner { grid-template-columns: 1fr; }
+  .hero h1 { font-size: clamp(2.25rem, 7vw, 4rem); }
+  .hero-project { max-width: 620px; }
+}
+@media (max-width: 480px) {
+  .hero-inner { padding-block: 36px; }
+  .hero .actions { display: grid; }
+}
