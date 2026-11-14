@@ -498,5 +498,155 @@
     "id": 100,
     "title": "Environmental Air Quality Monitoring System",
     "category": "IoT and smart systems"
+  },
+  {
+    "id": 101,
+    "title": "IT Asset Inventory and Warranty Tracker",
+    "category": "Information Technology"
+  },
+  {
+    "id": 102,
+    "title": "Campus IT Help Desk and Ticketing System",
+    "category": "Information Technology"
+  },
+  {
+    "id": 103,
+    "title": "Backup Schedule and Restore Verification Dashboard",
+    "category": "Information Technology"
+  },
+  {
+    "id": 104,
+    "title": "Software Licence and Renewal Tracker",
+    "category": "Information Technology"
+  },
+  {
+    "id": 105,
+    "title": "Computer Lab Booking and Maintenance Portal",
+    "category": "Information Technology"
+  },
+  {
+    "id": 106,
+    "title": "Network Uptime and Service Status Dashboard",
+    "category": "Information Technology"
+  },
+  {
+    "id": 107,
+    "title": "IT Equipment Checkout and Return System",
+    "category": "Information Technology"
+  },
+  {
+    "id": 108,
+    "title": "IT Service Request and Approval Portal",
+    "category": "Information Technology"
+  },
+  {
+    "id": 109,
+    "title": "Knowledge Base for Campus IT Support",
+    "category": "Information Technology"
+  },
+  {
+    "id": 110,
+    "title": "Digital Onboarding Checklist for New Staff",
+    "category": "Information Technology"
+  },
+  {
+    "id": 111,
+    "title": "Security Awareness Quiz and Training Tracker",
+    "category": "Cyber Security"
+  },
+  {
+    "id": 112,
+    "title": "Multi-Factor Authentication Adoption Dashboard",
+    "category": "Cyber Security"
+  },
+  {
+    "id": 113,
+    "title": "File Integrity Monitoring Dashboard",
+    "category": "Cyber Security"
+  },
+  {
+    "id": 114,
+    "title": "Security Incident Reporting and Triage Portal",
+    "category": "Cyber Security"
+  },
+  {
+    "id": 115,
+    "title": "User Access Review and Audit Trail System",
+    "category": "Cyber Security"
+  },
+  {
+    "id": 116,
+    "title": "Backup Integrity Verification Tool",
+    "category": "Cyber Security"
+  },
+  {
+    "id": 117,
+    "title": "Security Patch Compliance Dashboard",
+    "category": "Cyber Security"
+  },
+  {
+    "id": 118,
+    "title": "Privacy Preference and Consent Manager",
+    "category": "Cyber Security"
+  },
+  {
+    "id": 119,
+    "title": "Password Strength Education Tool",
+    "category": "Cyber Security"
+  },
+  {
+    "id": 120,
+    "title": "Security Log Review Dashboard with Synthetic Data",
+    "category": "Cyber Security"
+  },
+  {
+    "id": 121,
+    "title": "Microcontroller-Based Energy Meter",
+    "category": "Computer Engineering"
+  },
+  {
+    "id": 122,
+    "title": "Solar Battery Charge Monitoring System",
+    "category": "Computer Engineering"
+  },
+  {
+    "id": 123,
+    "title": "Digital Logic Gate Training Board",
+    "category": "Computer Engineering"
+  },
+  {
+    "id": 124,
+    "title": "Smart Fan Controller with Temperature Feedback",
+    "category": "Computer Engineering"
+  },
+  {
+    "id": 125,
+    "title": "FPGA-Based Digital Stopwatch",
+    "category": "Computer Engineering"
+  },
+  {
+    "id": 126,
+    "title": "Water Tank Level and Pump Controller",
+    "category": "Computer Engineering"
+  },
+  {
+    "id": 127,
+    "title": "Motor Speed Monitoring and Control System",
+    "category": "Computer Engineering"
+  },
+  {
+    "id": 128,
+    "title": "Digital Component Tester",
+    "category": "Computer Engineering"
+  },
+  {
+    "id": 129,
+    "title": "Microcontroller-Based Power Quality Monitor",
+    "category": "Computer Engineering"
+  },
+  {
+    "id": 130,
+    "title": "Embedded Traffic Signal Timing Simulator",
+    "category": "Computer Engineering"
   }
 ]
